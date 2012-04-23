@@ -5,9 +5,10 @@ body {
     background-color: #fff;
 }
 #editor {
-        position: absolute;
-        width: 500px;
-        height: 400px;
+        position: relative;
+        width: 900px;
+        height: 600px;
+        margin:  0 auto;
     }
 header, footer, nav, section {
     display: block;
