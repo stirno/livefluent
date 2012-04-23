@@ -4,7 +4,11 @@ body {
     color: #232323;
     background-color: #fff;
 }
-
+#editor {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+    }
 header, footer, nav, section {
     display: block;
 }

@@ -2,4 +2,16 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<pre id="editor">function foo(items) {
+    var i;
+    for (i = 0; i &lt; items.length; i++) {
+        alert("Ace Rocks " + items[i]);
+    }
+}</pre>
+<script>
+    window.onload = function() {
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/twilight");
+        editor.getSession().setMode("ace/mode/javascript");
+    };
+</script>
